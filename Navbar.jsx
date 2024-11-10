@@ -1,6 +1,7 @@
 import { RiCloseLine, RiLinksFill, RiMenu3Line } from "react-icons/ri";  //imported pathway from ChatGPT 
-import logo from "../assets/logo.webp";
+import logo from "../assets/logo.webp"
 import { useState} from "react"
+import {LINKS} from "../constants"
 
 
 const Navbar = () => {
@@ -24,7 +25,20 @@ const Navbar = () => {
                       If you're using Remix Icons in a React project, you need to import the specific icons before using them. Make sure you have the react-icons package installed: npm install react-icons "*/}
                   </button>
               </div>
-              
+              <div className="hidden md:flex space-x-8 md:space-x-4 pr-2">
+                  {LINKS.map((link, index) =>( // console error: LINKS not defined   // solution: imported LINKS
+                      <a key={index} href={link.link} className="uppercase text-sm font-medium">{link.name}</a>
+                  ))}
+              </div>
+            </div>
+            <div className = {`${
+                isOpen ? "block": "hidden" } md:hidden absolute bg-neutral-50 w-full py-5 px-4 mt-2 border-b-4`}>
+                    {LINKS.map ((link, index) =>(
+                        <a key={index} href={link.link} className="uppercase text-lg font-medium block py-2 tracking-wide">
+                            {link.name}
+                        </a>
+                    ))}
+
             </div>
       </nav>
   )
