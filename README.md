@@ -12,3 +12,4 @@ VASTU
 ![](vastu-6.png)
 ![](vastu-7.png)
 ![](vastu-8.png)
+![](vastu-9.png)
