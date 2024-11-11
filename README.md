@@ -13,3 +13,4 @@ VASTUSPAZE
 ![](vastu-7.png)
 ![](vastu-8.png)
 ![](vastu-9.png)
+![](vastu-10.png)
