@@ -4,7 +4,7 @@ VASTUSPAZE
 
 ``React`` | ``Tailwind CSS`` | ``Vite JS``
 
-![](vastu-1.png)
+![](vastu1.png)
 ![](vastu-2.png)
 ![](vastu-3.png)
 ![](vastu-4.png)
