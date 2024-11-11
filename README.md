@@ -2,7 +2,7 @@ VASTU
 <hr>
 <br>
 
-``React`` | ``Tailwind CSS``
+``React`` | ``Tailwind CSS`` | ``Vite JS``
 
 ![](vastu-1.png)
 ![](vastu-2.png)
