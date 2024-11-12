@@ -1,4 +1,4 @@
-VastuSpaze
+VASTUSPAZE
 <hr>
 <br>
 
