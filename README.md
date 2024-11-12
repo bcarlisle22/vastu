@@ -5,6 +5,8 @@ VASTUSPAZE
 ``React`` | ``Tailwind CSS`` | ``Vite``
 <br>
 
+[Live Demo](https://vastuspaze-5pa1-git-main-bcarlisle22s-projects.vercel.app/)
+
 ![](vastu1.png)
 ![](vastu-2.png)
 ![](vastu-3.png)
