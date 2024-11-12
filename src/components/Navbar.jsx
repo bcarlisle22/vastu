@@ -27,7 +27,7 @@ const Navbar = () => {
               </div>
               <div className="hidden md:flex space-x-8 md:space-x-4 pr-2">
                   {LINKS.map((link, index) =>( // console error: LINKS not defined   // solution: imported LINKS
-                      <a key={index} href={link.link} className="uppercase text-sm font-medium">{link.name}</a>
+                      <a key={index} href={link.link} className="uppercase text-sm font-light hover:font-normal">{link.name}</a>
                   ))}
               </div>
             </div>
